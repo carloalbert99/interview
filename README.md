@@ -1,4 +1,4 @@
-# interview
+# Technical Interview Code Challenge
 Is a coding challenge for the technical interview of qa automation engineer at deel.
 
 ## Local Development 
@@ -15,5 +15,5 @@ npm install
 1. Run the script:
 
 ````
-npm install
+npm run test:deel
 ````
