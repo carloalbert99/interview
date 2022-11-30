@@ -1,5 +1,5 @@
 # Technical Interview Code Challenge
-Is a coding challenge for the technical interview of qa automation engineer at deel.
+Is a coding challenge for the technical interview of QA Automation Engineer at Deel.
 
 ## Local Development 
 
