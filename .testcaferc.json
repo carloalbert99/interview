@@ -1,0 +1,25 @@
+{ 
+    "browsers": "chrome --start-fullscreen",
+    "src": "tests/*.ts",
+    "screenshots": {
+        "path":  "./artifacts/screenshots/",
+        "takeOnFails": true, 
+        "fullPage": false
+    },
+    "videoPath": "./artifacts/videos/",
+    "reporter": [
+        {
+            "name": "spec"
+        },
+        {
+            "name": "html",
+            "output": "./artifacts/reports/testCafeTestOutput.html"
+        }
+    ],
+    "skipJsErrors": true, 
+    "concurrency": 1,
+    "selectorTimeOut": 5000,
+    "assertionTimeOut": 5000,
+    "pageLoadTimeOut": 5000,
+    "speed": 1
+} 
